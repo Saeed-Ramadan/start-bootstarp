@@ -1,0 +1,313 @@
+.container1{
+    background-image: url(../images/header-bg.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+.container1 h3{
+    color: aliceblue;
+    margin-top: 250px;
+    margin-left: 600px;
+    font-family: 'Brygada 1918', serif;
+}
+.container1 h1{
+    margin-left: 380px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 70px;
+}
+.container1 button{
+    margin-left: 650px;
+    margin-top: 50px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/*end of navbar*/
+
+.services{
+    margin-top: 50px;
+    text-align: center;
+}
+.services h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.services p{
+    color: grey;
+    font-style: italic;
+}
+.services .grid1{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.services .grid1 .card .circle{
+    font-size: 60px;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #fff;
+}
+.services .grid1{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*end of services*/
+
+.portfolio{
+    margin-top: 50px;
+    text-align: center;
+}
+.portfolio h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.portfolio p{
+    color: grey;
+    font-style: italic;
+}
+/*end of portfolio*/
+
+.about{
+    margin-top: 50px;
+}
+.about h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.about p{
+    color: grey;
+    font-style: italic;
+    text-align: center;
+}
+.about .humble{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 600px;
+    margin-left: 200px;
+    text-align: right;
+    margin-top: 50px;
+}
+.about .humble img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 201, 201);
+    margin-left: 50px;
+}
+
+.about .he1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.5px;
+    height: 100px;
+    margin-left: 722px;
+    margin-top: -15px;
+}
+/* end of humble*/
+.about .agency{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 700px;
+    margin-left: 600px;
+}
+.about .agency img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 201, 201);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.about .he1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.5px;
+    height: 100px;
+    margin-left: 722px;
+    margin-top: -15px;
+}
+/* end of agency*/
+.about .transition{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 600px;
+    margin-left: 200px;
+    text-align: right;
+}
+.about .transition img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 201, 201);
+    margin-left: 50px;
+}
+
+.about .he1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.5px;
+    height: 100px;
+    margin-left: 722px;
+    margin-top: -15px;
+}
+/* end of transition*/
+.about .phase{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 700px;
+    margin-left: 600px;
+}
+.about .phase img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 201, 201);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.about .he1{
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    width: 0.5px;
+    height: 100px;
+    margin-left: 722px;
+    margin-top: -15px;
+}
+/* end of phase*/
+.about .part{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 600px;
+    margin-left: 650px;
+    text-align: right;
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 201, 201);
+}
+.about .part p{
+    margin-top: 15px;
+    margin-left: 37px;
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+}
+/* end of part*/
+
+/* end of about*/
+.amazingTeam{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+.amazingTeam h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.amazingTeam p{
+    color: grey;
+    font-style: italic;
+}
+.amazingTeam .team{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.amazingTeam .team .card1{
+    width: 300px;
+}
+.amazingTeam .team .card1 .social i{
+    font-size: 25px;
+    color: #000;
+}
+.amazingTeam .para{
+    width: 80%;
+    color: gray;
+    font-family: cursive;
+    text-align: center;
+    margin-left:10% ;
+    margin-top: 50px;
+}
+/*end of amazingTeam*/
+
+.companies{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.companies img{
+    width: 170px;
+    height: 70px;
+}
+/*end of companies*/
+.form1{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(../images/world.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.form1 h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.form1 p{
+    color: grey;
+    font-style: italic;
+}
+
+.form1 .form2{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding: 20px 200px 20px 200px;
+}
+.form1 .form2 .user{
+    padding: 20px;
+}
+.form1 .form2 .text1{
+    padding: 20px;
+}
+/* end of form1 */
+.footer{
+    background-color: rgb(180, 180, 180);
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 20px;
+}
+.footer p{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.footer .social1{
+    margin-left: 200px;
+}
+.footer .social1 i{
+    font-size: 30px;
+    color: #000;
+    margin-top: 10px;
+}
+
+/*end of footer*/
